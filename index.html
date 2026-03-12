@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Atlas TTT/CCT - UIS Metalurgia Mecánica</title>
+<style>
+body{font-family:system-ui;background:#0c0f1a;color:#e0e4f0;max-width:1200px;margin:0 auto;padding:20px}
+h1{color:#e67e22;border-bottom:2px solid #e67e22;padding-bottom:10px}
+h2{color:#f0a050;margin-top:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:15px;margin:15px 0}
+.card{background:#171c34;border:1px solid #252b4a;border-radius:8px;overflow:hidden;transition:transform .2s}
+.card:hover{transform:scale(1.02);border-color:#e67e22}
+.card img{width:100%;height:200px;object-fit:contain;background:#111528;padding:5px}
+.card .label{padding:8px 12px;font-size:.8rem;color:#9aa0c0}
+a{color:#e67e22;text-decoration:none}
+</style>
+</head>
+<body>
+<h1>Atlas of Isothermal Transformation and Cooling Transformation Diagrams</h1>
+<p>UIS · Ingeniería Metalúrgica · Metalurgia Mecánica · Prof. Carlos A. Galán Pinilla</p>
+<p>Desarrollado por Ing. J. Gabriel Franco · 2026</p>
+<h2>Introducción y Tabla de Contenidos</h2>
+<div class="grid">
+<div class="card"><a href="00_intro_toc/atlas_p000.jpg" target="_blank"><img src="00_intro_toc/atlas_p000.jpg" alt="Atlas p.0" loading="lazy"/></a><div class="label">Página 0</div></div>
+<div class="card"><a href="00_intro_toc/atlas_p001.jpg" target="_blank"><img src="00_intro_toc/atlas_p001.jpg" alt="Atlas p.1" loading="lazy"/></a><div class="label">Página 1</div></div>
+<div class="card"><a href="00_intro_toc/atlas_p002.jpg" target="_blank"><img src="00_intro_toc/atlas_p002.jpg" alt="Atlas p.2" loading="lazy"/></a><div class="label">Página 2</div></div>
+<div class="card"><a href="00_intro_toc/atlas_p003.jpg" target="_blank"><img src="00_intro_toc/atlas_p003.jpg" alt="Atlas p.3" loading="lazy"/></a><div class="label">Página 3</div></div>
+<div class="card"><a href="00_intro_toc/atlas_p004.jpg" target="_blank"><img src="00_intro_toc/atlas_p004.jpg" alt="Atlas p.4" loading="lazy"/></a><div class="label">Página 4</div></div>
+<div class="card"><a href="00_intro_toc/atlas_p005.jpg" target="_blank"><img src="00_intro_toc/atlas_p005.jpg" alt="Atlas p.5" loading="lazy"/></a><div class="label">Página 5</div></div>
+<div class="card"><a href="00_intro_toc/atlas_p006.jpg" target="_blank"><img src="00_intro_toc/atlas_p006.jpg" alt="Atlas p.6" loading="lazy"/></a><div class="label">Página 6</div></div>
+<div class="card"><a href="00_intro_toc/atlas_p007.jpg" target="_blank"><img src="00_intro_toc/atlas_p007.jpg" alt="Atlas p.7" loading="lazy"/></a><div class="label">Página 7</div></div>
+<div class="card"><a href="00_intro_toc/atlas_p008.jpg" target="_blank"><img src="00_intro_toc/atlas_p008.jpg" alt="Atlas p.8" loading="lazy"/></a><div class="label">Página 8</div></div>
+<div class="card"><a href="00_intro_toc/atlas_p009.jpg" target="_blank"><img src="00_intro_toc/atlas_p009.jpg" alt="Atlas p.9" loading="lazy"/></a><div class="label">Página 9</div></div>
+<div class="card"><a href="00_intro_toc/atlas_p010.jpg" target="_blank"><img src="00_intro_toc/atlas_p010.jpg" alt="Atlas p.10" loading="lazy"/></a><div class="label">Página 10</div></div>
+<div class="card"><a href="00_intro_toc/atlas_p011.jpg" target="_blank"><img src="00_intro_toc/atlas_p011.jpg" alt="Atlas p.11" loading="lazy"/></a><div class="label">Página 11</div></div>
+<div class="card"><a href="00_intro_toc/atlas_p012.jpg" target="_blank"><img src="00_intro_toc/atlas_p012.jpg" alt="Atlas p.12" loading="lazy"/></a><div class="label">Página 12</div></div>
+<div class="card"><a href="00_intro_toc/atlas_p013.jpg" target="_blank"><img src="00_intro_toc/atlas_p013.jpg" alt="Atlas p.13" loading="lazy"/></a><div class="label">Página 13</div></div>
+</div>
+<h2>Aceros al Carbono (0.06-1.35%C)</h2>
+<div class="grid">
+<div class="card"><a href="01_carbon_steels/atlas_p014.jpg" target="_blank"><img src="01_carbon_steels/atlas_p014.jpg" alt="Atlas p.14" loading="lazy"/></a><div class="label">Página 14</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p015.jpg" target="_blank"><img src="01_carbon_steels/atlas_p015.jpg" alt="Atlas p.15" loading="lazy"/></a><div class="label">Página 15</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p016.jpg" target="_blank"><img src="01_carbon_steels/atlas_p016.jpg" alt="Atlas p.16" loading="lazy"/></a><div class="label">Página 16</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p017.jpg" target="_blank"><img src="01_carbon_steels/atlas_p017.jpg" alt="Atlas p.17" loading="lazy"/></a><div class="label">Página 17</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p018.jpg" target="_blank"><img src="01_carbon_steels/atlas_p018.jpg" alt="Atlas p.18" loading="lazy"/></a><div class="label">Página 18</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p019.jpg" target="_blank"><img src="01_carbon_steels/atlas_p019.jpg" alt="Atlas p.19" loading="lazy"/></a><div class="label">Página 19</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p020.jpg" target="_blank"><img src="01_carbon_steels/atlas_p020.jpg" alt="Atlas p.20" loading="lazy"/></a><div class="label">Página 20</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p021.jpg" target="_blank"><img src="01_carbon_steels/atlas_p021.jpg" alt="Atlas p.21" loading="lazy"/></a><div class="label">Página 21</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p022.jpg" target="_blank"><img src="01_carbon_steels/atlas_p022.jpg" alt="Atlas p.22" loading="lazy"/></a><div class="label">Página 22</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p023.jpg" target="_blank"><img src="01_carbon_steels/atlas_p023.jpg" alt="Atlas p.23" loading="lazy"/></a><div class="label">Página 23</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p024.jpg" target="_blank"><img src="01_carbon_steels/atlas_p024.jpg" alt="Atlas p.24" loading="lazy"/></a><div class="label">Página 24</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p025.jpg" target="_blank"><img src="01_carbon_steels/atlas_p025.jpg" alt="Atlas p.25" loading="lazy"/></a><div class="label">Página 25</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p026.jpg" target="_blank"><img src="01_carbon_steels/atlas_p026.jpg" alt="Atlas p.26" loading="lazy"/></a><div class="label">Página 26</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p027.jpg" target="_blank"><img src="01_carbon_steels/atlas_p027.jpg" alt="Atlas p.27" loading="lazy"/></a><div class="label">Página 27</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p028.jpg" target="_blank"><img src="01_carbon_steels/atlas_p028.jpg" alt="Atlas p.28" loading="lazy"/></a><div class="label">Página 28</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p029.jpg" target="_blank"><img src="01_carbon_steels/atlas_p029.jpg" alt="Atlas p.29" loading="lazy"/></a><div class="label">Página 29</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p030.jpg" target="_blank"><img src="01_carbon_steels/atlas_p030.jpg" alt="Atlas p.30" loading="lazy"/></a><div class="label">Página 30</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p031.jpg" target="_blank"><img src="01_carbon_steels/atlas_p031.jpg" alt="Atlas p.31" loading="lazy"/></a><div class="label">Página 31</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p032.jpg" target="_blank"><img src="01_carbon_steels/atlas_p032.jpg" alt="Atlas p.32" loading="lazy"/></a><div class="label">Página 32</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p033.jpg" target="_blank"><img src="01_carbon_steels/atlas_p033.jpg" alt="Atlas p.33" loading="lazy"/></a><div class="label">Página 33</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p034.jpg" target="_blank"><img src="01_carbon_steels/atlas_p034.jpg" alt="Atlas p.34" loading="lazy"/></a><div class="label">Página 34</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p035.jpg" target="_blank"><img src="01_carbon_steels/atlas_p035.jpg" alt="Atlas p.35" loading="lazy"/></a><div class="label">Página 35</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p036.jpg" target="_blank"><img src="01_carbon_steels/atlas_p036.jpg" alt="Atlas p.36" loading="lazy"/></a><div class="label">Página 36</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p037.jpg" target="_blank"><img src="01_carbon_steels/atlas_p037.jpg" alt="Atlas p.37" loading="lazy"/></a><div class="label">Página 37</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p038.jpg" target="_blank"><img src="01_carbon_steels/atlas_p038.jpg" alt="Atlas p.38" loading="lazy"/></a><div class="label">Página 38</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p039.jpg" target="_blank"><img src="01_carbon_steels/atlas_p039.jpg" alt="Atlas p.39" loading="lazy"/></a><div class="label">Página 39</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p040.jpg" target="_blank"><img src="01_carbon_steels/atlas_p040.jpg" alt="Atlas p.40" loading="lazy"/></a><div class="label">Página 40</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p041.jpg" target="_blank"><img src="01_carbon_steels/atlas_p041.jpg" alt="Atlas p.41" loading="lazy"/></a><div class="label">Página 41</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p042.jpg" target="_blank"><img src="01_carbon_steels/atlas_p042.jpg" alt="Atlas p.42" loading="lazy"/></a><div class="label">Página 42</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p043.jpg" target="_blank"><img src="01_carbon_steels/atlas_p043.jpg" alt="Atlas p.43" loading="lazy"/></a><div class="label">Página 43</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p044.jpg" target="_blank"><img src="01_carbon_steels/atlas_p044.jpg" alt="Atlas p.44" loading="lazy"/></a><div class="label">Página 44</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p045.jpg" target="_blank"><img src="01_carbon_steels/atlas_p045.jpg" alt="Atlas p.45" loading="lazy"/></a><div class="label">Página 45</div></div>
+<div class="card"><a href="01_carbon_steels/atlas_p046.jpg" target="_blank"><img src="01_carbon_steels/atlas_p046.jpg" alt="Atlas p.46" loading="lazy"/></a><div class="label">Página 46</div></div>
+</div>
+<h2>Aceros al Manganeso</h2>
+<div class="grid">
+<div class="card"><a href="02_manganese_steels/atlas_p047.jpg" target="_blank"><img src="02_manganese_steels/atlas_p047.jpg" alt="Atlas p.47" loading="lazy"/></a><div class="label">Página 47</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p048.jpg" target="_blank"><img src="02_manganese_steels/atlas_p048.jpg" alt="Atlas p.48" loading="lazy"/></a><div class="label">Página 48</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p049.jpg" target="_blank"><img src="02_manganese_steels/atlas_p049.jpg" alt="Atlas p.49" loading="lazy"/></a><div class="label">Página 49</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p050.jpg" target="_blank"><img src="02_manganese_steels/atlas_p050.jpg" alt="Atlas p.50" loading="lazy"/></a><div class="label">Página 50</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p051.jpg" target="_blank"><img src="02_manganese_steels/atlas_p051.jpg" alt="Atlas p.51" loading="lazy"/></a><div class="label">Página 51</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p052.jpg" target="_blank"><img src="02_manganese_steels/atlas_p052.jpg" alt="Atlas p.52" loading="lazy"/></a><div class="label">Página 52</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p053.jpg" target="_blank"><img src="02_manganese_steels/atlas_p053.jpg" alt="Atlas p.53" loading="lazy"/></a><div class="label">Página 53</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p054.jpg" target="_blank"><img src="02_manganese_steels/atlas_p054.jpg" alt="Atlas p.54" loading="lazy"/></a><div class="label">Página 54</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p055.jpg" target="_blank"><img src="02_manganese_steels/atlas_p055.jpg" alt="Atlas p.55" loading="lazy"/></a><div class="label">Página 55</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p056.jpg" target="_blank"><img src="02_manganese_steels/atlas_p056.jpg" alt="Atlas p.56" loading="lazy"/></a><div class="label">Página 56</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p057.jpg" target="_blank"><img src="02_manganese_steels/atlas_p057.jpg" alt="Atlas p.57" loading="lazy"/></a><div class="label">Página 57</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p058.jpg" target="_blank"><img src="02_manganese_steels/atlas_p058.jpg" alt="Atlas p.58" loading="lazy"/></a><div class="label">Página 58</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p059.jpg" target="_blank"><img src="02_manganese_steels/atlas_p059.jpg" alt="Atlas p.59" loading="lazy"/></a><div class="label">Página 59</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p060.jpg" target="_blank"><img src="02_manganese_steels/atlas_p060.jpg" alt="Atlas p.60" loading="lazy"/></a><div class="label">Página 60</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p061.jpg" target="_blank"><img src="02_manganese_steels/atlas_p061.jpg" alt="Atlas p.61" loading="lazy"/></a><div class="label">Página 61</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p062.jpg" target="_blank"><img src="02_manganese_steels/atlas_p062.jpg" alt="Atlas p.62" loading="lazy"/></a><div class="label">Página 62</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p063.jpg" target="_blank"><img src="02_manganese_steels/atlas_p063.jpg" alt="Atlas p.63" loading="lazy"/></a><div class="label">Página 63</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p064.jpg" target="_blank"><img src="02_manganese_steels/atlas_p064.jpg" alt="Atlas p.64" loading="lazy"/></a><div class="label">Página 64</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p065.jpg" target="_blank"><img src="02_manganese_steels/atlas_p065.jpg" alt="Atlas p.65" loading="lazy"/></a><div class="label">Página 65</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p066.jpg" target="_blank"><img src="02_manganese_steels/atlas_p066.jpg" alt="Atlas p.66" loading="lazy"/></a><div class="label">Página 66</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p067.jpg" target="_blank"><img src="02_manganese_steels/atlas_p067.jpg" alt="Atlas p.67" loading="lazy"/></a><div class="label">Página 67</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p068.jpg" target="_blank"><img src="02_manganese_steels/atlas_p068.jpg" alt="Atlas p.68" loading="lazy"/></a><div class="label">Página 68</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p069.jpg" target="_blank"><img src="02_manganese_steels/atlas_p069.jpg" alt="Atlas p.69" loading="lazy"/></a><div class="label">Página 69</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p070.jpg" target="_blank"><img src="02_manganese_steels/atlas_p070.jpg" alt="Atlas p.70" loading="lazy"/></a><div class="label">Página 70</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p071.jpg" target="_blank"><img src="02_manganese_steels/atlas_p071.jpg" alt="Atlas p.71" loading="lazy"/></a><div class="label">Página 71</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p072.jpg" target="_blank"><img src="02_manganese_steels/atlas_p072.jpg" alt="Atlas p.72" loading="lazy"/></a><div class="label">Página 72</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p073.jpg" target="_blank"><img src="02_manganese_steels/atlas_p073.jpg" alt="Atlas p.73" loading="lazy"/></a><div class="label">Página 73</div></div>
+<div class="card"><a href="02_manganese_steels/atlas_p074.jpg" target="_blank"><img src="02_manganese_steels/atlas_p074.jpg" alt="Atlas p.74" loading="lazy"/></a><div class="label">Página 74</div></div>
+</div>
+<h2>Aceros al Níquel</h2>
+<div class="grid">
+<div class="card"><a href="03_nickel_steels/atlas_p075.jpg" target="_blank"><img src="03_nickel_steels/atlas_p075.jpg" alt="Atlas p.75" loading="lazy"/></a><div class="label">Página 75</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p076.jpg" target="_blank"><img src="03_nickel_steels/atlas_p076.jpg" alt="Atlas p.76" loading="lazy"/></a><div class="label">Página 76</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p077.jpg" target="_blank"><img src="03_nickel_steels/atlas_p077.jpg" alt="Atlas p.77" loading="lazy"/></a><div class="label">Página 77</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p078.jpg" target="_blank"><img src="03_nickel_steels/atlas_p078.jpg" alt="Atlas p.78" loading="lazy"/></a><div class="label">Página 78</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p079.jpg" target="_blank"><img src="03_nickel_steels/atlas_p079.jpg" alt="Atlas p.79" loading="lazy"/></a><div class="label">Página 79</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p080.jpg" target="_blank"><img src="03_nickel_steels/atlas_p080.jpg" alt="Atlas p.80" loading="lazy"/></a><div class="label">Página 80</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p081.jpg" target="_blank"><img src="03_nickel_steels/atlas_p081.jpg" alt="Atlas p.81" loading="lazy"/></a><div class="label">Página 81</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p082.jpg" target="_blank"><img src="03_nickel_steels/atlas_p082.jpg" alt="Atlas p.82" loading="lazy"/></a><div class="label">Página 82</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p083.jpg" target="_blank"><img src="03_nickel_steels/atlas_p083.jpg" alt="Atlas p.83" loading="lazy"/></a><div class="label">Página 83</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p084.jpg" target="_blank"><img src="03_nickel_steels/atlas_p084.jpg" alt="Atlas p.84" loading="lazy"/></a><div class="label">Página 84</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p085.jpg" target="_blank"><img src="03_nickel_steels/atlas_p085.jpg" alt="Atlas p.85" loading="lazy"/></a><div class="label">Página 85</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p086.jpg" target="_blank"><img src="03_nickel_steels/atlas_p086.jpg" alt="Atlas p.86" loading="lazy"/></a><div class="label">Página 86</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p087.jpg" target="_blank"><img src="03_nickel_steels/atlas_p087.jpg" alt="Atlas p.87" loading="lazy"/></a><div class="label">Página 87</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p088.jpg" target="_blank"><img src="03_nickel_steels/atlas_p088.jpg" alt="Atlas p.88" loading="lazy"/></a><div class="label">Página 88</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p089.jpg" target="_blank"><img src="03_nickel_steels/atlas_p089.jpg" alt="Atlas p.89" loading="lazy"/></a><div class="label">Página 89</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p090.jpg" target="_blank"><img src="03_nickel_steels/atlas_p090.jpg" alt="Atlas p.90" loading="lazy"/></a><div class="label">Página 90</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p091.jpg" target="_blank"><img src="03_nickel_steels/atlas_p091.jpg" alt="Atlas p.91" loading="lazy"/></a><div class="label">Página 91</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p092.jpg" target="_blank"><img src="03_nickel_steels/atlas_p092.jpg" alt="Atlas p.92" loading="lazy"/></a><div class="label">Página 92</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p093.jpg" target="_blank"><img src="03_nickel_steels/atlas_p093.jpg" alt="Atlas p.93" loading="lazy"/></a><div class="label">Página 93</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p094.jpg" target="_blank"><img src="03_nickel_steels/atlas_p094.jpg" alt="Atlas p.94" loading="lazy"/></a><div class="label">Página 94</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p095.jpg" target="_blank"><img src="03_nickel_steels/atlas_p095.jpg" alt="Atlas p.95" loading="lazy"/></a><div class="label">Página 95</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p096.jpg" target="_blank"><img src="03_nickel_steels/atlas_p096.jpg" alt="Atlas p.96" loading="lazy"/></a><div class="label">Página 96</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p097.jpg" target="_blank"><img src="03_nickel_steels/atlas_p097.jpg" alt="Atlas p.97" loading="lazy"/></a><div class="label">Página 97</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p098.jpg" target="_blank"><img src="03_nickel_steels/atlas_p098.jpg" alt="Atlas p.98" loading="lazy"/></a><div class="label">Página 98</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p099.jpg" target="_blank"><img src="03_nickel_steels/atlas_p099.jpg" alt="Atlas p.99" loading="lazy"/></a><div class="label">Página 99</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p100.jpg" target="_blank"><img src="03_nickel_steels/atlas_p100.jpg" alt="Atlas p.100" loading="lazy"/></a><div class="label">Página 100</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p101.jpg" target="_blank"><img src="03_nickel_steels/atlas_p101.jpg" alt="Atlas p.101" loading="lazy"/></a><div class="label">Página 101</div></div>
+<div class="card"><a href="03_nickel_steels/atlas_p102.jpg" target="_blank"><img src="03_nickel_steels/atlas_p102.jpg" alt="Atlas p.102" loading="lazy"/></a><div class="label">Página 102</div></div>
+</div>
+<h2>Aceros Níquel-Cromo</h2>
+<div class="grid">
+<div class="card"><a href="04_nickel_chromium/atlas_p103.jpg" target="_blank"><img src="04_nickel_chromium/atlas_p103.jpg" alt="Atlas p.103" loading="lazy"/></a><div class="label">Página 103</div></div>
+<div class="card"><a href="04_nickel_chromium/atlas_p104.jpg" target="_blank"><img src="04_nickel_chromium/atlas_p104.jpg" alt="Atlas p.104" loading="lazy"/></a><div class="label">Página 104</div></div>
+<div class="card"><a href="04_nickel_chromium/atlas_p105.jpg" target="_blank"><img src="04_nickel_chromium/atlas_p105.jpg" alt="Atlas p.105" loading="lazy"/></a><div class="label">Página 105</div></div>
+<div class="card"><a href="04_nickel_chromium/atlas_p106.jpg" target="_blank"><img src="04_nickel_chromium/atlas_p106.jpg" alt="Atlas p.106" loading="lazy"/></a><div class="label">Página 106</div></div>
+<div class="card"><a href="04_nickel_chromium/atlas_p107.jpg" target="_blank"><img src="04_nickel_chromium/atlas_p107.jpg" alt="Atlas p.107" loading="lazy"/></a><div class="label">Página 107</div></div>
+<div class="card"><a href="04_nickel_chromium/atlas_p108.jpg" target="_blank"><img src="04_nickel_chromium/atlas_p108.jpg" alt="Atlas p.108" loading="lazy"/></a><div class="label">Página 108</div></div>
+<div class="card"><a href="04_nickel_chromium/atlas_p109.jpg" target="_blank"><img src="04_nickel_chromium/atlas_p109.jpg" alt="Atlas p.109" loading="lazy"/></a><div class="label">Página 109</div></div>
+<div class="card"><a href="04_nickel_chromium/atlas_p110.jpg" target="_blank"><img src="04_nickel_chromium/atlas_p110.jpg" alt="Atlas p.110" loading="lazy"/></a><div class="label">Página 110</div></div>
+<div class="card"><a href="04_nickel_chromium/atlas_p111.jpg" target="_blank"><img src="04_nickel_chromium/atlas_p111.jpg" alt="Atlas p.111" loading="lazy"/></a><div class="label">Página 111</div></div>
+<div class="card"><a href="04_nickel_chromium/atlas_p112.jpg" target="_blank"><img src="04_nickel_chromium/atlas_p112.jpg" alt="Atlas p.112" loading="lazy"/></a><div class="label">Página 112</div></div>
+<div class="card"><a href="04_nickel_chromium/atlas_p113.jpg" target="_blank"><img src="04_nickel_chromium/atlas_p113.jpg" alt="Atlas p.113" loading="lazy"/></a><div class="label">Página 113</div></div>
+<div class="card"><a href="04_nickel_chromium/atlas_p114.jpg" target="_blank"><img src="04_nickel_chromium/atlas_p114.jpg" alt="Atlas p.114" loading="lazy"/></a><div class="label">Página 114</div></div>
+<div class="card"><a href="04_nickel_chromium/atlas_p115.jpg" target="_blank"><img src="04_nickel_chromium/atlas_p115.jpg" alt="Atlas p.115" loading="lazy"/></a><div class="label">Página 115</div></div>
+<div class="card"><a href="04_nickel_chromium/atlas_p116.jpg" target="_blank"><img src="04_nickel_chromium/atlas_p116.jpg" alt="Atlas p.116" loading="lazy"/></a><div class="label">Página 116</div></div>
+<div class="card"><a href="04_nickel_chromium/atlas_p117.jpg" target="_blank"><img src="04_nickel_chromium/atlas_p117.jpg" alt="Atlas p.117" loading="lazy"/></a><div class="label">Página 117</div></div>
+<div class="card"><a href="04_nickel_chromium/atlas_p118.jpg" target="_blank"><img src="04_nickel_chromium/atlas_p118.jpg" alt="Atlas p.118" loading="lazy"/></a><div class="label">Página 118</div></div>
+<div class="card"><a href="04_nickel_chromium/atlas_p119.jpg" target="_blank"><img src="04_nickel_chromium/atlas_p119.jpg" alt="Atlas p.119" loading="lazy"/></a><div class="label">Página 119</div></div>
+<div class="card"><a href="04_nickel_chromium/atlas_p120.jpg" target="_blank"><img src="04_nickel_chromium/atlas_p120.jpg" alt="Atlas p.120" loading="lazy"/></a><div class="label">Página 120</div></div>
+<div class="card"><a href="04_nickel_chromium/atlas_p121.jpg" target="_blank"><img src="04_nickel_chromium/atlas_p121.jpg" alt="Atlas p.121" loading="lazy"/></a><div class="label">Página 121</div></div>
+<div class="card"><a href="04_nickel_chromium/atlas_p122.jpg" target="_blank"><img src="04_nickel_chromium/atlas_p122.jpg" alt="Atlas p.122" loading="lazy"/></a><div class="label">Página 122</div></div>
+<div class="card"><a href="04_nickel_chromium/atlas_p123.jpg" target="_blank"><img src="04_nickel_chromium/atlas_p123.jpg" alt="Atlas p.123" loading="lazy"/></a><div class="label">Página 123</div></div>
+</div>
+<h2>Aceros Carbono-Molibdeno</h2>
+<div class="grid">
+<div class="card"><a href="05_carbon_molybdenum/atlas_p124.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p124.jpg" alt="Atlas p.124" loading="lazy"/></a><div class="label">Página 124</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p125.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p125.jpg" alt="Atlas p.125" loading="lazy"/></a><div class="label">Página 125</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p126.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p126.jpg" alt="Atlas p.126" loading="lazy"/></a><div class="label">Página 126</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p127.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p127.jpg" alt="Atlas p.127" loading="lazy"/></a><div class="label">Página 127</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p128.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p128.jpg" alt="Atlas p.128" loading="lazy"/></a><div class="label">Página 128</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p129.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p129.jpg" alt="Atlas p.129" loading="lazy"/></a><div class="label">Página 129</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p130.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p130.jpg" alt="Atlas p.130" loading="lazy"/></a><div class="label">Página 130</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p131.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p131.jpg" alt="Atlas p.131" loading="lazy"/></a><div class="label">Página 131</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p132.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p132.jpg" alt="Atlas p.132" loading="lazy"/></a><div class="label">Página 132</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p133.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p133.jpg" alt="Atlas p.133" loading="lazy"/></a><div class="label">Página 133</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p134.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p134.jpg" alt="Atlas p.134" loading="lazy"/></a><div class="label">Página 134</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p135.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p135.jpg" alt="Atlas p.135" loading="lazy"/></a><div class="label">Página 135</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p136.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p136.jpg" alt="Atlas p.136" loading="lazy"/></a><div class="label">Página 136</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p137.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p137.jpg" alt="Atlas p.137" loading="lazy"/></a><div class="label">Página 137</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p138.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p138.jpg" alt="Atlas p.138" loading="lazy"/></a><div class="label">Página 138</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p139.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p139.jpg" alt="Atlas p.139" loading="lazy"/></a><div class="label">Página 139</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p140.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p140.jpg" alt="Atlas p.140" loading="lazy"/></a><div class="label">Página 140</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p141.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p141.jpg" alt="Atlas p.141" loading="lazy"/></a><div class="label">Página 141</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p142.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p142.jpg" alt="Atlas p.142" loading="lazy"/></a><div class="label">Página 142</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p143.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p143.jpg" alt="Atlas p.143" loading="lazy"/></a><div class="label">Página 143</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p144.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p144.jpg" alt="Atlas p.144" loading="lazy"/></a><div class="label">Página 144</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p145.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p145.jpg" alt="Atlas p.145" loading="lazy"/></a><div class="label">Página 145</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p146.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p146.jpg" alt="Atlas p.146" loading="lazy"/></a><div class="label">Página 146</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p147.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p147.jpg" alt="Atlas p.147" loading="lazy"/></a><div class="label">Página 147</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p148.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p148.jpg" alt="Atlas p.148" loading="lazy"/></a><div class="label">Página 148</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p149.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p149.jpg" alt="Atlas p.149" loading="lazy"/></a><div class="label">Página 149</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p150.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p150.jpg" alt="Atlas p.150" loading="lazy"/></a><div class="label">Página 150</div></div>
+<div class="card"><a href="05_carbon_molybdenum/atlas_p151.jpg" target="_blank"><img src="05_carbon_molybdenum/atlas_p151.jpg" alt="Atlas p.151" loading="lazy"/></a><div class="label">Página 151</div></div>
+</div>
+<h2>Aceros Cromo-Molibdeno</h2>
+<div class="grid">
+<div class="card"><a href="06_chromium_molybdenum/atlas_p152.jpg" target="_blank"><img src="06_chromium_molybdenum/atlas_p152.jpg" alt="Atlas p.152" loading="lazy"/></a><div class="label">Página 152</div></div>
+<div class="card"><a href="06_chromium_molybdenum/atlas_p153.jpg" target="_blank"><img src="06_chromium_molybdenum/atlas_p153.jpg" alt="Atlas p.153" loading="lazy"/></a><div class="label">Página 153</div></div>
+<div class="card"><a href="06_chromium_molybdenum/atlas_p154.jpg" target="_blank"><img src="06_chromium_molybdenum/atlas_p154.jpg" alt="Atlas p.154" loading="lazy"/></a><div class="label">Página 154</div></div>
+<div class="card"><a href="06_chromium_molybdenum/atlas_p155.jpg" target="_blank"><img src="06_chromium_molybdenum/atlas_p155.jpg" alt="Atlas p.155" loading="lazy"/></a><div class="label">Página 155</div></div>
+<div class="card"><a href="06_chromium_molybdenum/atlas_p156.jpg" target="_blank"><img src="06_chromium_molybdenum/atlas_p156.jpg" alt="Atlas p.156" loading="lazy"/></a><div class="label">Página 156</div></div>
+<div class="card"><a href="06_chromium_molybdenum/atlas_p157.jpg" target="_blank"><img src="06_chromium_molybdenum/atlas_p157.jpg" alt="Atlas p.157" loading="lazy"/></a><div class="label">Página 157</div></div>
+<div class="card"><a href="06_chromium_molybdenum/atlas_p158.jpg" target="_blank"><img src="06_chromium_molybdenum/atlas_p158.jpg" alt="Atlas p.158" loading="lazy"/></a><div class="label">Página 158</div></div>
+<div class="card"><a href="06_chromium_molybdenum/atlas_p159.jpg" target="_blank"><img src="06_chromium_molybdenum/atlas_p159.jpg" alt="Atlas p.159" loading="lazy"/></a><div class="label">Página 159</div></div>
+<div class="card"><a href="06_chromium_molybdenum/atlas_p160.jpg" target="_blank"><img src="06_chromium_molybdenum/atlas_p160.jpg" alt="Atlas p.160" loading="lazy"/></a><div class="label">Página 160</div></div>
+<div class="card"><a href="06_chromium_molybdenum/atlas_p161.jpg" target="_blank"><img src="06_chromium_molybdenum/atlas_p161.jpg" alt="Atlas p.161" loading="lazy"/></a><div class="label">Página 161</div></div>
+<div class="card"><a href="06_chromium_molybdenum/atlas_p162.jpg" target="_blank"><img src="06_chromium_molybdenum/atlas_p162.jpg" alt="Atlas p.162" loading="lazy"/></a><div class="label">Página 162</div></div>
+<div class="card"><a href="06_chromium_molybdenum/atlas_p163.jpg" target="_blank"><img src="06_chromium_molybdenum/atlas_p163.jpg" alt="Atlas p.163" loading="lazy"/></a><div class="label">Página 163</div></div>
+<div class="card"><a href="06_chromium_molybdenum/atlas_p164.jpg" target="_blank"><img src="06_chromium_molybdenum/atlas_p164.jpg" alt="Atlas p.164" loading="lazy"/></a><div class="label">Página 164</div></div>
+<div class="card"><a href="06_chromium_molybdenum/atlas_p165.jpg" target="_blank"><img src="06_chromium_molybdenum/atlas_p165.jpg" alt="Atlas p.165" loading="lazy"/></a><div class="label">Página 165</div></div>
+<div class="card"><a href="06_chromium_molybdenum/atlas_p166.jpg" target="_blank"><img src="06_chromium_molybdenum/atlas_p166.jpg" alt="Atlas p.166" loading="lazy"/></a><div class="label">Página 166</div></div>
+<div class="card"><a href="06_chromium_molybdenum/atlas_p167.jpg" target="_blank"><img src="06_chromium_molybdenum/atlas_p167.jpg" alt="Atlas p.167" loading="lazy"/></a><div class="label">Página 167</div></div>
+<div class="card"><a href="06_chromium_molybdenum/atlas_p168.jpg" target="_blank"><img src="06_chromium_molybdenum/atlas_p168.jpg" alt="Atlas p.168" loading="lazy"/></a><div class="label">Página 168</div></div>
+<div class="card"><a href="06_chromium_molybdenum/atlas_p169.jpg" target="_blank"><img src="06_chromium_molybdenum/atlas_p169.jpg" alt="Atlas p.169" loading="lazy"/></a><div class="label">Página 169</div></div>
+</div>
+<h2>Aceros Ni-Cr-Mo (Serie AISI 4300)</h2>
+<div class="grid">
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p170.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p170.jpg" alt="Atlas p.170" loading="lazy"/></a><div class="label">Página 170</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p171.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p171.jpg" alt="Atlas p.171" loading="lazy"/></a><div class="label">Página 171</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p172.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p172.jpg" alt="Atlas p.172" loading="lazy"/></a><div class="label">Página 172</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p173.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p173.jpg" alt="Atlas p.173" loading="lazy"/></a><div class="label">Página 173</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p174.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p174.jpg" alt="Atlas p.174" loading="lazy"/></a><div class="label">Página 174</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p175.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p175.jpg" alt="Atlas p.175" loading="lazy"/></a><div class="label">Página 175</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p176.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p176.jpg" alt="Atlas p.176" loading="lazy"/></a><div class="label">Página 176</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p177.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p177.jpg" alt="Atlas p.177" loading="lazy"/></a><div class="label">Página 177</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p178.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p178.jpg" alt="Atlas p.178" loading="lazy"/></a><div class="label">Página 178</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p179.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p179.jpg" alt="Atlas p.179" loading="lazy"/></a><div class="label">Página 179</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p180.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p180.jpg" alt="Atlas p.180" loading="lazy"/></a><div class="label">Página 180</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p181.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p181.jpg" alt="Atlas p.181" loading="lazy"/></a><div class="label">Página 181</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p182.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p182.jpg" alt="Atlas p.182" loading="lazy"/></a><div class="label">Página 182</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p183.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p183.jpg" alt="Atlas p.183" loading="lazy"/></a><div class="label">Página 183</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p184.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p184.jpg" alt="Atlas p.184" loading="lazy"/></a><div class="label">Página 184</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p185.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p185.jpg" alt="Atlas p.185" loading="lazy"/></a><div class="label">Página 185</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p186.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p186.jpg" alt="Atlas p.186" loading="lazy"/></a><div class="label">Página 186</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p187.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p187.jpg" alt="Atlas p.187" loading="lazy"/></a><div class="label">Página 187</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p188.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p188.jpg" alt="Atlas p.188" loading="lazy"/></a><div class="label">Página 188</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p189.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p189.jpg" alt="Atlas p.189" loading="lazy"/></a><div class="label">Página 189</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p190.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p190.jpg" alt="Atlas p.190" loading="lazy"/></a><div class="label">Página 190</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p191.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p191.jpg" alt="Atlas p.191" loading="lazy"/></a><div class="label">Página 191</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p192.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p192.jpg" alt="Atlas p.192" loading="lazy"/></a><div class="label">Página 192</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p193.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p193.jpg" alt="Atlas p.193" loading="lazy"/></a><div class="label">Página 193</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p194.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p194.jpg" alt="Atlas p.194" loading="lazy"/></a><div class="label">Página 194</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p195.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p195.jpg" alt="Atlas p.195" loading="lazy"/></a><div class="label">Página 195</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p196.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p196.jpg" alt="Atlas p.196" loading="lazy"/></a><div class="label">Página 196</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p197.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p197.jpg" alt="Atlas p.197" loading="lazy"/></a><div class="label">Página 197</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p198.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p198.jpg" alt="Atlas p.198" loading="lazy"/></a><div class="label">Página 198</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p199.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p199.jpg" alt="Atlas p.199" loading="lazy"/></a><div class="label">Página 199</div></div>
+<div class="card"><a href="07_NiCrMo_4300_series/atlas_p200.jpg" target="_blank"><img src="07_NiCrMo_4300_series/atlas_p200.jpg" alt="Atlas p.200" loading="lazy"/></a><div class="label">Página 200</div></div>
+</div>
+<h2>Aceros Níquel-Molibdeno</h2>
+<div class="grid">
+<div class="card"><a href="08_nickel_molybdenum/atlas_p201.jpg" target="_blank"><img src="08_nickel_molybdenum/atlas_p201.jpg" alt="Atlas p.201" loading="lazy"/></a><div class="label">Página 201</div></div>
+<div class="card"><a href="08_nickel_molybdenum/atlas_p202.jpg" target="_blank"><img src="08_nickel_molybdenum/atlas_p202.jpg" alt="Atlas p.202" loading="lazy"/></a><div class="label">Página 202</div></div>
+<div class="card"><a href="08_nickel_molybdenum/atlas_p203.jpg" target="_blank"><img src="08_nickel_molybdenum/atlas_p203.jpg" alt="Atlas p.203" loading="lazy"/></a><div class="label">Página 203</div></div>
+<div class="card"><a href="08_nickel_molybdenum/atlas_p204.jpg" target="_blank"><img src="08_nickel_molybdenum/atlas_p204.jpg" alt="Atlas p.204" loading="lazy"/></a><div class="label">Página 204</div></div>
+<div class="card"><a href="08_nickel_molybdenum/atlas_p205.jpg" target="_blank"><img src="08_nickel_molybdenum/atlas_p205.jpg" alt="Atlas p.205" loading="lazy"/></a><div class="label">Página 205</div></div>
+<div class="card"><a href="08_nickel_molybdenum/atlas_p206.jpg" target="_blank"><img src="08_nickel_molybdenum/atlas_p206.jpg" alt="Atlas p.206" loading="lazy"/></a><div class="label">Página 206</div></div>
+<div class="card"><a href="08_nickel_molybdenum/atlas_p207.jpg" target="_blank"><img src="08_nickel_molybdenum/atlas_p207.jpg" alt="Atlas p.207" loading="lazy"/></a><div class="label">Página 207</div></div>
+<div class="card"><a href="08_nickel_molybdenum/atlas_p208.jpg" target="_blank"><img src="08_nickel_molybdenum/atlas_p208.jpg" alt="Atlas p.208" loading="lazy"/></a><div class="label">Página 208</div></div>
+<div class="card"><a href="08_nickel_molybdenum/atlas_p209.jpg" target="_blank"><img src="08_nickel_molybdenum/atlas_p209.jpg" alt="Atlas p.209" loading="lazy"/></a><div class="label">Página 209</div></div>
+<div class="card"><a href="08_nickel_molybdenum/atlas_p210.jpg" target="_blank"><img src="08_nickel_molybdenum/atlas_p210.jpg" alt="Atlas p.210" loading="lazy"/></a><div class="label">Página 210</div></div>
+<div class="card"><a href="08_nickel_molybdenum/atlas_p211.jpg" target="_blank"><img src="08_nickel_molybdenum/atlas_p211.jpg" alt="Atlas p.211" loading="lazy"/></a><div class="label">Página 211</div></div>
+<div class="card"><a href="08_nickel_molybdenum/atlas_p212.jpg" target="_blank"><img src="08_nickel_molybdenum/atlas_p212.jpg" alt="Atlas p.212" loading="lazy"/></a><div class="label">Página 212</div></div>
+</div>
+<h2>Aceros al Cromo</h2>
+<div class="grid">
+<div class="card"><a href="09_chromium_steels/atlas_p213.jpg" target="_blank"><img src="09_chromium_steels/atlas_p213.jpg" alt="Atlas p.213" loading="lazy"/></a><div class="label">Página 213</div></div>
+<div class="card"><a href="09_chromium_steels/atlas_p214.jpg" target="_blank"><img src="09_chromium_steels/atlas_p214.jpg" alt="Atlas p.214" loading="lazy"/></a><div class="label">Página 214</div></div>
+<div class="card"><a href="09_chromium_steels/atlas_p215.jpg" target="_blank"><img src="09_chromium_steels/atlas_p215.jpg" alt="Atlas p.215" loading="lazy"/></a><div class="label">Página 215</div></div>
+<div class="card"><a href="09_chromium_steels/atlas_p216.jpg" target="_blank"><img src="09_chromium_steels/atlas_p216.jpg" alt="Atlas p.216" loading="lazy"/></a><div class="label">Página 216</div></div>
+<div class="card"><a href="09_chromium_steels/atlas_p217.jpg" target="_blank"><img src="09_chromium_steels/atlas_p217.jpg" alt="Atlas p.217" loading="lazy"/></a><div class="label">Página 217</div></div>
+<div class="card"><a href="09_chromium_steels/atlas_p218.jpg" target="_blank"><img src="09_chromium_steels/atlas_p218.jpg" alt="Atlas p.218" loading="lazy"/></a><div class="label">Página 218</div></div>
+<div class="card"><a href="09_chromium_steels/atlas_p219.jpg" target="_blank"><img src="09_chromium_steels/atlas_p219.jpg" alt="Atlas p.219" loading="lazy"/></a><div class="label">Página 219</div></div>
+<div class="card"><a href="09_chromium_steels/atlas_p220.jpg" target="_blank"><img src="09_chromium_steels/atlas_p220.jpg" alt="Atlas p.220" loading="lazy"/></a><div class="label">Página 220</div></div>
+<div class="card"><a href="09_chromium_steels/atlas_p221.jpg" target="_blank"><img src="09_chromium_steels/atlas_p221.jpg" alt="Atlas p.221" loading="lazy"/></a><div class="label">Página 221</div></div>
+<div class="card"><a href="09_chromium_steels/atlas_p222.jpg" target="_blank"><img src="09_chromium_steels/atlas_p222.jpg" alt="Atlas p.222" loading="lazy"/></a><div class="label">Página 222</div></div>
+<div class="card"><a href="09_chromium_steels/atlas_p223.jpg" target="_blank"><img src="09_chromium_steels/atlas_p223.jpg" alt="Atlas p.223" loading="lazy"/></a><div class="label">Página 223</div></div>
+<div class="card"><a href="09_chromium_steels/atlas_p224.jpg" target="_blank"><img src="09_chromium_steels/atlas_p224.jpg" alt="Atlas p.224" loading="lazy"/></a><div class="label">Página 224</div></div>
+<div class="card"><a href="09_chromium_steels/atlas_p225.jpg" target="_blank"><img src="09_chromium_steels/atlas_p225.jpg" alt="Atlas p.225" loading="lazy"/></a><div class="label">Página 225</div></div>
+<div class="card"><a href="09_chromium_steels/atlas_p226.jpg" target="_blank"><img src="09_chromium_steels/atlas_p226.jpg" alt="Atlas p.226" loading="lazy"/></a><div class="label">Página 226</div></div>
+<div class="card"><a href="09_chromium_steels/atlas_p227.jpg" target="_blank"><img src="09_chromium_steels/atlas_p227.jpg" alt="Atlas p.227" loading="lazy"/></a><div class="label">Página 227</div></div>
+<div class="card"><a href="09_chromium_steels/atlas_p228.jpg" target="_blank"><img src="09_chromium_steels/atlas_p228.jpg" alt="Atlas p.228" loading="lazy"/></a><div class="label">Página 228</div></div>
+<div class="card"><a href="09_chromium_steels/atlas_p229.jpg" target="_blank"><img src="09_chromium_steels/atlas_p229.jpg" alt="Atlas p.229" loading="lazy"/></a><div class="label">Página 229</div></div>
+<div class="card"><a href="09_chromium_steels/atlas_p230.jpg" target="_blank"><img src="09_chromium_steels/atlas_p230.jpg" alt="Atlas p.230" loading="lazy"/></a><div class="label">Página 230</div></div>
+<div class="card"><a href="09_chromium_steels/atlas_p231.jpg" target="_blank"><img src="09_chromium_steels/atlas_p231.jpg" alt="Atlas p.231" loading="lazy"/></a><div class="label">Página 231</div></div>
+</div>
+<h2>Aceros al Vanadio</h2>
+<div class="grid">
+<div class="card"><a href="10_vanadium_steels/atlas_p232.jpg" target="_blank"><img src="10_vanadium_steels/atlas_p232.jpg" alt="Atlas p.232" loading="lazy"/></a><div class="label">Página 232</div></div>
+<div class="card"><a href="10_vanadium_steels/atlas_p233.jpg" target="_blank"><img src="10_vanadium_steels/atlas_p233.jpg" alt="Atlas p.233" loading="lazy"/></a><div class="label">Página 233</div></div>
+<div class="card"><a href="10_vanadium_steels/atlas_p234.jpg" target="_blank"><img src="10_vanadium_steels/atlas_p234.jpg" alt="Atlas p.234" loading="lazy"/></a><div class="label">Página 234</div></div>
+<div class="card"><a href="10_vanadium_steels/atlas_p235.jpg" target="_blank"><img src="10_vanadium_steels/atlas_p235.jpg" alt="Atlas p.235" loading="lazy"/></a><div class="label">Página 235</div></div>
+<div class="card"><a href="10_vanadium_steels/atlas_p236.jpg" target="_blank"><img src="10_vanadium_steels/atlas_p236.jpg" alt="Atlas p.236" loading="lazy"/></a><div class="label">Página 236</div></div>
+<div class="card"><a href="10_vanadium_steels/atlas_p237.jpg" target="_blank"><img src="10_vanadium_steels/atlas_p237.jpg" alt="Atlas p.237" loading="lazy"/></a><div class="label">Página 237</div></div>
+<div class="card"><a href="10_vanadium_steels/atlas_p238.jpg" target="_blank"><img src="10_vanadium_steels/atlas_p238.jpg" alt="Atlas p.238" loading="lazy"/></a><div class="label">Página 238</div></div>
+<div class="card"><a href="10_vanadium_steels/atlas_p239.jpg" target="_blank"><img src="10_vanadium_steels/atlas_p239.jpg" alt="Atlas p.239" loading="lazy"/></a><div class="label">Página 239</div></div>
+<div class="card"><a href="10_vanadium_steels/atlas_p240.jpg" target="_blank"><img src="10_vanadium_steels/atlas_p240.jpg" alt="Atlas p.240" loading="lazy"/></a><div class="label">Página 240</div></div>
+<div class="card"><a href="10_vanadium_steels/atlas_p241.jpg" target="_blank"><img src="10_vanadium_steels/atlas_p241.jpg" alt="Atlas p.241" loading="lazy"/></a><div class="label">Página 241</div></div>
+<div class="card"><a href="10_vanadium_steels/atlas_p242.jpg" target="_blank"><img src="10_vanadium_steels/atlas_p242.jpg" alt="Atlas p.242" loading="lazy"/></a><div class="label">Página 242</div></div>
+<div class="card"><a href="10_vanadium_steels/atlas_p243.jpg" target="_blank"><img src="10_vanadium_steels/atlas_p243.jpg" alt="Atlas p.243" loading="lazy"/></a><div class="label">Página 243</div></div>
+<div class="card"><a href="10_vanadium_steels/atlas_p244.jpg" target="_blank"><img src="10_vanadium_steels/atlas_p244.jpg" alt="Atlas p.244" loading="lazy"/></a><div class="label">Página 244</div></div>
+<div class="card"><a href="10_vanadium_steels/atlas_p245.jpg" target="_blank"><img src="10_vanadium_steels/atlas_p245.jpg" alt="Atlas p.245" loading="lazy"/></a><div class="label">Página 245</div></div>
+<div class="card"><a href="10_vanadium_steels/atlas_p246.jpg" target="_blank"><img src="10_vanadium_steels/atlas_p246.jpg" alt="Atlas p.246" loading="lazy"/></a><div class="label">Página 246</div></div>
+<div class="card"><a href="10_vanadium_steels/atlas_p247.jpg" target="_blank"><img src="10_vanadium_steels/atlas_p247.jpg" alt="Atlas p.247" loading="lazy"/></a><div class="label">Página 247</div></div>
+</div>
+<h2>Aceros Ni-Cr-Mo (Series 8600-9800)</h2>
+<div class="grid">
+<div class="card"><a href="11_NiCrMo_8600_9800/atlas_p248.jpg" target="_blank"><img src="11_NiCrMo_8600_9800/atlas_p248.jpg" alt="Atlas p.248" loading="lazy"/></a><div class="label">Página 248</div></div>
+<div class="card"><a href="11_NiCrMo_8600_9800/atlas_p249.jpg" target="_blank"><img src="11_NiCrMo_8600_9800/atlas_p249.jpg" alt="Atlas p.249" loading="lazy"/></a><div class="label">Página 249</div></div>
+<div class="card"><a href="11_NiCrMo_8600_9800/atlas_p250.jpg" target="_blank"><img src="11_NiCrMo_8600_9800/atlas_p250.jpg" alt="Atlas p.250" loading="lazy"/></a><div class="label">Página 250</div></div>
+<div class="card"><a href="11_NiCrMo_8600_9800/atlas_p251.jpg" target="_blank"><img src="11_NiCrMo_8600_9800/atlas_p251.jpg" alt="Atlas p.251" loading="lazy"/></a><div class="label">Página 251</div></div>
+<div class="card"><a href="11_NiCrMo_8600_9800/atlas_p252.jpg" target="_blank"><img src="11_NiCrMo_8600_9800/atlas_p252.jpg" alt="Atlas p.252" loading="lazy"/></a><div class="label">Página 252</div></div>
+<div class="card"><a href="11_NiCrMo_8600_9800/atlas_p253.jpg" target="_blank"><img src="11_NiCrMo_8600_9800/atlas_p253.jpg" alt="Atlas p.253" loading="lazy"/></a><div class="label">Página 253</div></div>
+<div class="card"><a href="11_NiCrMo_8600_9800/atlas_p254.jpg" target="_blank"><img src="11_NiCrMo_8600_9800/atlas_p254.jpg" alt="Atlas p.254" loading="lazy"/></a><div class="label">Página 254</div></div>
+</div>
+<h2>Aceros al Silicio</h2>
+<div class="grid">
+<div class="card"><a href="12_silicon_steels/atlas_p255.jpg" target="_blank"><img src="12_silicon_steels/atlas_p255.jpg" alt="Atlas p.255" loading="lazy"/></a><div class="label">Página 255</div></div>
+<div class="card"><a href="12_silicon_steels/atlas_p256.jpg" target="_blank"><img src="12_silicon_steels/atlas_p256.jpg" alt="Atlas p.256" loading="lazy"/></a><div class="label">Página 256</div></div>
+<div class="card"><a href="12_silicon_steels/atlas_p257.jpg" target="_blank"><img src="12_silicon_steels/atlas_p257.jpg" alt="Atlas p.257" loading="lazy"/></a><div class="label">Página 257</div></div>
+<div class="card"><a href="12_silicon_steels/atlas_p258.jpg" target="_blank"><img src="12_silicon_steels/atlas_p258.jpg" alt="Atlas p.258" loading="lazy"/></a><div class="label">Página 258</div></div>
+<div class="card"><a href="12_silicon_steels/atlas_p259.jpg" target="_blank"><img src="12_silicon_steels/atlas_p259.jpg" alt="Atlas p.259" loading="lazy"/></a><div class="label">Página 259</div></div>
+<div class="card"><a href="12_silicon_steels/atlas_p260.jpg" target="_blank"><img src="12_silicon_steels/atlas_p260.jpg" alt="Atlas p.260" loading="lazy"/></a><div class="label">Página 260</div></div>
+<div class="card"><a href="12_silicon_steels/atlas_p261.jpg" target="_blank"><img src="12_silicon_steels/atlas_p261.jpg" alt="Atlas p.261" loading="lazy"/></a><div class="label">Página 261</div></div>
+<div class="card"><a href="12_silicon_steels/atlas_p262.jpg" target="_blank"><img src="12_silicon_steels/atlas_p262.jpg" alt="Atlas p.262" loading="lazy"/></a><div class="label">Página 262</div></div>
+</div>
+<h2>Aceros al Boro</h2>
+<div class="grid">
+<div class="card"><a href="13_boron_steels/atlas_p263.jpg" target="_blank"><img src="13_boron_steels/atlas_p263.jpg" alt="Atlas p.263" loading="lazy"/></a><div class="label">Página 263</div></div>
+<div class="card"><a href="13_boron_steels/atlas_p264.jpg" target="_blank"><img src="13_boron_steels/atlas_p264.jpg" alt="Atlas p.264" loading="lazy"/></a><div class="label">Página 264</div></div>
+<div class="card"><a href="13_boron_steels/atlas_p265.jpg" target="_blank"><img src="13_boron_steels/atlas_p265.jpg" alt="Atlas p.265" loading="lazy"/></a><div class="label">Página 265</div></div>
+<div class="card"><a href="13_boron_steels/atlas_p266.jpg" target="_blank"><img src="13_boron_steels/atlas_p266.jpg" alt="Atlas p.266" loading="lazy"/></a><div class="label">Página 266</div></div>
+<div class="card"><a href="13_boron_steels/atlas_p267.jpg" target="_blank"><img src="13_boron_steels/atlas_p267.jpg" alt="Atlas p.267" loading="lazy"/></a><div class="label">Página 267</div></div>
+<div class="card"><a href="13_boron_steels/atlas_p268.jpg" target="_blank"><img src="13_boron_steels/atlas_p268.jpg" alt="Atlas p.268" loading="lazy"/></a><div class="label">Página 268</div></div>
+<div class="card"><a href="13_boron_steels/atlas_p269.jpg" target="_blank"><img src="13_boron_steels/atlas_p269.jpg" alt="Atlas p.269" loading="lazy"/></a><div class="label">Página 269</div></div>
+<div class="card"><a href="13_boron_steels/atlas_p270.jpg" target="_blank"><img src="13_boron_steels/atlas_p270.jpg" alt="Atlas p.270" loading="lazy"/></a><div class="label">Página 270</div></div>
+<div class="card"><a href="13_boron_steels/atlas_p271.jpg" target="_blank"><img src="13_boron_steels/atlas_p271.jpg" alt="Atlas p.271" loading="lazy"/></a><div class="label">Página 271</div></div>
+<div class="card"><a href="13_boron_steels/atlas_p272.jpg" target="_blank"><img src="13_boron_steels/atlas_p272.jpg" alt="Atlas p.272" loading="lazy"/></a><div class="label">Página 272</div></div>
+<div class="card"><a href="13_boron_steels/atlas_p273.jpg" target="_blank"><img src="13_boron_steels/atlas_p273.jpg" alt="Atlas p.273" loading="lazy"/></a><div class="label">Página 273</div></div>
+<div class="card"><a href="13_boron_steels/atlas_p274.jpg" target="_blank"><img src="13_boron_steels/atlas_p274.jpg" alt="Atlas p.274" loading="lazy"/></a><div class="label">Página 274</div></div>
+<div class="card"><a href="13_boron_steels/atlas_p275.jpg" target="_blank"><img src="13_boron_steels/atlas_p275.jpg" alt="Atlas p.275" loading="lazy"/></a><div class="label">Página 275</div></div>
+</div>
+<h2>Aceros al Cobre</h2>
+<div class="grid">
+<div class="card"><a href="14_copper_steels/atlas_p276.jpg" target="_blank"><img src="14_copper_steels/atlas_p276.jpg" alt="Atlas p.276" loading="lazy"/></a><div class="label">Página 276</div></div>
+<div class="card"><a href="14_copper_steels/atlas_p277.jpg" target="_blank"><img src="14_copper_steels/atlas_p277.jpg" alt="Atlas p.277" loading="lazy"/></a><div class="label">Página 277</div></div>
+<div class="card"><a href="14_copper_steels/atlas_p278.jpg" target="_blank"><img src="14_copper_steels/atlas_p278.jpg" alt="Atlas p.278" loading="lazy"/></a><div class="label">Página 278</div></div>
+<div class="card"><a href="14_copper_steels/atlas_p279.jpg" target="_blank"><img src="14_copper_steels/atlas_p279.jpg" alt="Atlas p.279" loading="lazy"/></a><div class="label">Página 279</div></div>
+<div class="card"><a href="14_copper_steels/atlas_p280.jpg" target="_blank"><img src="14_copper_steels/atlas_p280.jpg" alt="Atlas p.280" loading="lazy"/></a><div class="label">Página 280</div></div>
+</div>
+<h2>Aceros para Nitruración</h2>
+<div class="grid">
+<div class="card"><a href="15_nitriding_steels/atlas_p281.jpg" target="_blank"><img src="15_nitriding_steels/atlas_p281.jpg" alt="Atlas p.281" loading="lazy"/></a><div class="label">Página 281</div></div>
+<div class="card"><a href="15_nitriding_steels/atlas_p282.jpg" target="_blank"><img src="15_nitriding_steels/atlas_p282.jpg" alt="Atlas p.282" loading="lazy"/></a><div class="label">Página 282</div></div>
+</div>
+<h2>Aceros HSLA</h2>
+<div class="grid">
+<div class="card"><a href="16_high_strength_low_alloy/atlas_p283.jpg" target="_blank"><img src="16_high_strength_low_alloy/atlas_p283.jpg" alt="Atlas p.283" loading="lazy"/></a><div class="label">Página 283</div></div>
+<div class="card"><a href="16_high_strength_low_alloy/atlas_p284.jpg" target="_blank"><img src="16_high_strength_low_alloy/atlas_p284.jpg" alt="Atlas p.284" loading="lazy"/></a><div class="label">Página 284</div></div>
+<div class="card"><a href="16_high_strength_low_alloy/atlas_p285.jpg" target="_blank"><img src="16_high_strength_low_alloy/atlas_p285.jpg" alt="Atlas p.285" loading="lazy"/></a><div class="label">Página 285</div></div>
+</div>
+<h2>Aceros Alta Resistencia</h2>
+<div class="grid">
+<div class="card"><a href="17_high_strength/atlas_p286.jpg" target="_blank"><img src="17_high_strength/atlas_p286.jpg" alt="Atlas p.286" loading="lazy"/></a><div class="label">Página 286</div></div>
+<div class="card"><a href="17_high_strength/atlas_p287.jpg" target="_blank"><img src="17_high_strength/atlas_p287.jpg" alt="Atlas p.287" loading="lazy"/></a><div class="label">Página 287</div></div>
+<div class="card"><a href="17_high_strength/atlas_p288.jpg" target="_blank"><img src="17_high_strength/atlas_p288.jpg" alt="Atlas p.288" loading="lazy"/></a><div class="label">Página 288</div></div>
+</div>
+<h2>Aceros para Resortes</h2>
+<div class="grid">
+<div class="card"><a href="18_spring_steel/atlas_p289.jpg" target="_blank"><img src="18_spring_steel/atlas_p289.jpg" alt="Atlas p.289" loading="lazy"/></a><div class="label">Página 289</div></div>
+</div>
+<h2>Aceros Herramienta</h2>
+<div class="grid">
+<div class="card"><a href="19_tool_steels/atlas_p290.jpg" target="_blank"><img src="19_tool_steels/atlas_p290.jpg" alt="Atlas p.290" loading="lazy"/></a><div class="label">Página 290</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p291.jpg" target="_blank"><img src="19_tool_steels/atlas_p291.jpg" alt="Atlas p.291" loading="lazy"/></a><div class="label">Página 291</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p292.jpg" target="_blank"><img src="19_tool_steels/atlas_p292.jpg" alt="Atlas p.292" loading="lazy"/></a><div class="label">Página 292</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p293.jpg" target="_blank"><img src="19_tool_steels/atlas_p293.jpg" alt="Atlas p.293" loading="lazy"/></a><div class="label">Página 293</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p294.jpg" target="_blank"><img src="19_tool_steels/atlas_p294.jpg" alt="Atlas p.294" loading="lazy"/></a><div class="label">Página 294</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p295.jpg" target="_blank"><img src="19_tool_steels/atlas_p295.jpg" alt="Atlas p.295" loading="lazy"/></a><div class="label">Página 295</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p296.jpg" target="_blank"><img src="19_tool_steels/atlas_p296.jpg" alt="Atlas p.296" loading="lazy"/></a><div class="label">Página 296</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p297.jpg" target="_blank"><img src="19_tool_steels/atlas_p297.jpg" alt="Atlas p.297" loading="lazy"/></a><div class="label">Página 297</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p298.jpg" target="_blank"><img src="19_tool_steels/atlas_p298.jpg" alt="Atlas p.298" loading="lazy"/></a><div class="label">Página 298</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p299.jpg" target="_blank"><img src="19_tool_steels/atlas_p299.jpg" alt="Atlas p.299" loading="lazy"/></a><div class="label">Página 299</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p300.jpg" target="_blank"><img src="19_tool_steels/atlas_p300.jpg" alt="Atlas p.300" loading="lazy"/></a><div class="label">Página 300</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p301.jpg" target="_blank"><img src="19_tool_steels/atlas_p301.jpg" alt="Atlas p.301" loading="lazy"/></a><div class="label">Página 301</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p302.jpg" target="_blank"><img src="19_tool_steels/atlas_p302.jpg" alt="Atlas p.302" loading="lazy"/></a><div class="label">Página 302</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p303.jpg" target="_blank"><img src="19_tool_steels/atlas_p303.jpg" alt="Atlas p.303" loading="lazy"/></a><div class="label">Página 303</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p304.jpg" target="_blank"><img src="19_tool_steels/atlas_p304.jpg" alt="Atlas p.304" loading="lazy"/></a><div class="label">Página 304</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p305.jpg" target="_blank"><img src="19_tool_steels/atlas_p305.jpg" alt="Atlas p.305" loading="lazy"/></a><div class="label">Página 305</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p306.jpg" target="_blank"><img src="19_tool_steels/atlas_p306.jpg" alt="Atlas p.306" loading="lazy"/></a><div class="label">Página 306</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p307.jpg" target="_blank"><img src="19_tool_steels/atlas_p307.jpg" alt="Atlas p.307" loading="lazy"/></a><div class="label">Página 307</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p308.jpg" target="_blank"><img src="19_tool_steels/atlas_p308.jpg" alt="Atlas p.308" loading="lazy"/></a><div class="label">Página 308</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p309.jpg" target="_blank"><img src="19_tool_steels/atlas_p309.jpg" alt="Atlas p.309" loading="lazy"/></a><div class="label">Página 309</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p310.jpg" target="_blank"><img src="19_tool_steels/atlas_p310.jpg" alt="Atlas p.310" loading="lazy"/></a><div class="label">Página 310</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p311.jpg" target="_blank"><img src="19_tool_steels/atlas_p311.jpg" alt="Atlas p.311" loading="lazy"/></a><div class="label">Página 311</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p312.jpg" target="_blank"><img src="19_tool_steels/atlas_p312.jpg" alt="Atlas p.312" loading="lazy"/></a><div class="label">Página 312</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p313.jpg" target="_blank"><img src="19_tool_steels/atlas_p313.jpg" alt="Atlas p.313" loading="lazy"/></a><div class="label">Página 313</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p314.jpg" target="_blank"><img src="19_tool_steels/atlas_p314.jpg" alt="Atlas p.314" loading="lazy"/></a><div class="label">Página 314</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p315.jpg" target="_blank"><img src="19_tool_steels/atlas_p315.jpg" alt="Atlas p.315" loading="lazy"/></a><div class="label">Página 315</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p316.jpg" target="_blank"><img src="19_tool_steels/atlas_p316.jpg" alt="Atlas p.316" loading="lazy"/></a><div class="label">Página 316</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p317.jpg" target="_blank"><img src="19_tool_steels/atlas_p317.jpg" alt="Atlas p.317" loading="lazy"/></a><div class="label">Página 317</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p318.jpg" target="_blank"><img src="19_tool_steels/atlas_p318.jpg" alt="Atlas p.318" loading="lazy"/></a><div class="label">Página 318</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p319.jpg" target="_blank"><img src="19_tool_steels/atlas_p319.jpg" alt="Atlas p.319" loading="lazy"/></a><div class="label">Página 319</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p320.jpg" target="_blank"><img src="19_tool_steels/atlas_p320.jpg" alt="Atlas p.320" loading="lazy"/></a><div class="label">Página 320</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p321.jpg" target="_blank"><img src="19_tool_steels/atlas_p321.jpg" alt="Atlas p.321" loading="lazy"/></a><div class="label">Página 321</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p322.jpg" target="_blank"><img src="19_tool_steels/atlas_p322.jpg" alt="Atlas p.322" loading="lazy"/></a><div class="label">Página 322</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p323.jpg" target="_blank"><img src="19_tool_steels/atlas_p323.jpg" alt="Atlas p.323" loading="lazy"/></a><div class="label">Página 323</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p324.jpg" target="_blank"><img src="19_tool_steels/atlas_p324.jpg" alt="Atlas p.324" loading="lazy"/></a><div class="label">Página 324</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p325.jpg" target="_blank"><img src="19_tool_steels/atlas_p325.jpg" alt="Atlas p.325" loading="lazy"/></a><div class="label">Página 325</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p326.jpg" target="_blank"><img src="19_tool_steels/atlas_p326.jpg" alt="Atlas p.326" loading="lazy"/></a><div class="label">Página 326</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p327.jpg" target="_blank"><img src="19_tool_steels/atlas_p327.jpg" alt="Atlas p.327" loading="lazy"/></a><div class="label">Página 327</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p328.jpg" target="_blank"><img src="19_tool_steels/atlas_p328.jpg" alt="Atlas p.328" loading="lazy"/></a><div class="label">Página 328</div></div>
+<div class="card"><a href="19_tool_steels/atlas_p329.jpg" target="_blank"><img src="19_tool_steels/atlas_p329.jpg" alt="Atlas p.329" loading="lazy"/></a><div class="label">Página 329</div></div>
+</div>
+<h2>Aceros Inoxidables</h2>
+<div class="grid">
+<div class="card"><a href="20_stainless_steels/atlas_p330.jpg" target="_blank"><img src="20_stainless_steels/atlas_p330.jpg" alt="Atlas p.330" loading="lazy"/></a><div class="label">Página 330</div></div>
+<div class="card"><a href="20_stainless_steels/atlas_p331.jpg" target="_blank"><img src="20_stainless_steels/atlas_p331.jpg" alt="Atlas p.331" loading="lazy"/></a><div class="label">Página 331</div></div>
+<div class="card"><a href="20_stainless_steels/atlas_p332.jpg" target="_blank"><img src="20_stainless_steels/atlas_p332.jpg" alt="Atlas p.332" loading="lazy"/></a><div class="label">Página 332</div></div>
+<div class="card"><a href="20_stainless_steels/atlas_p333.jpg" target="_blank"><img src="20_stainless_steels/atlas_p333.jpg" alt="Atlas p.333" loading="lazy"/></a><div class="label">Página 333</div></div>
+<div class="card"><a href="20_stainless_steels/atlas_p334.jpg" target="_blank"><img src="20_stainless_steels/atlas_p334.jpg" alt="Atlas p.334" loading="lazy"/></a><div class="label">Página 334</div></div>
+<div class="card"><a href="20_stainless_steels/atlas_p335.jpg" target="_blank"><img src="20_stainless_steels/atlas_p335.jpg" alt="Atlas p.335" loading="lazy"/></a><div class="label">Página 335</div></div>
+<div class="card"><a href="20_stainless_steels/atlas_p336.jpg" target="_blank"><img src="20_stainless_steels/atlas_p336.jpg" alt="Atlas p.336" loading="lazy"/></a><div class="label">Página 336</div></div>
+<div class="card"><a href="20_stainless_steels/atlas_p337.jpg" target="_blank"><img src="20_stainless_steels/atlas_p337.jpg" alt="Atlas p.337" loading="lazy"/></a><div class="label">Página 337</div></div>
+<div class="card"><a href="20_stainless_steels/atlas_p338.jpg" target="_blank"><img src="20_stainless_steels/atlas_p338.jpg" alt="Atlas p.338" loading="lazy"/></a><div class="label">Página 338</div></div>
+</div>
+<h2>Aceros de Fundición</h2>
+<div class="grid">
+<div class="card"><a href="21_cast_steels/atlas_p339.jpg" target="_blank"><img src="21_cast_steels/atlas_p339.jpg" alt="Atlas p.339" loading="lazy"/></a><div class="label">Página 339</div></div>
+<div class="card"><a href="21_cast_steels/atlas_p340.jpg" target="_blank"><img src="21_cast_steels/atlas_p340.jpg" alt="Atlas p.340" loading="lazy"/></a><div class="label">Página 340</div></div>
+<div class="card"><a href="21_cast_steels/atlas_p341.jpg" target="_blank"><img src="21_cast_steels/atlas_p341.jpg" alt="Atlas p.341" loading="lazy"/></a><div class="label">Página 341</div></div>
+<div class="card"><a href="21_cast_steels/atlas_p342.jpg" target="_blank"><img src="21_cast_steels/atlas_p342.jpg" alt="Atlas p.342" loading="lazy"/></a><div class="label">Página 342</div></div>
+<div class="card"><a href="21_cast_steels/atlas_p343.jpg" target="_blank"><img src="21_cast_steels/atlas_p343.jpg" alt="Atlas p.343" loading="lazy"/></a><div class="label">Página 343</div></div>
+<div class="card"><a href="21_cast_steels/atlas_p344.jpg" target="_blank"><img src="21_cast_steels/atlas_p344.jpg" alt="Atlas p.344" loading="lazy"/></a><div class="label">Página 344</div></div>
+<div class="card"><a href="21_cast_steels/atlas_p345.jpg" target="_blank"><img src="21_cast_steels/atlas_p345.jpg" alt="Atlas p.345" loading="lazy"/></a><div class="label">Página 345</div></div>
+<div class="card"><a href="21_cast_steels/atlas_p346.jpg" target="_blank"><img src="21_cast_steels/atlas_p346.jpg" alt="Atlas p.346" loading="lazy"/></a><div class="label">Página 346</div></div>
+<div class="card"><a href="21_cast_steels/atlas_p347.jpg" target="_blank"><img src="21_cast_steels/atlas_p347.jpg" alt="Atlas p.347" loading="lazy"/></a><div class="label">Página 347</div></div>
+<div class="card"><a href="21_cast_steels/atlas_p348.jpg" target="_blank"><img src="21_cast_steels/atlas_p348.jpg" alt="Atlas p.348" loading="lazy"/></a><div class="label">Página 348</div></div>
+<div class="card"><a href="21_cast_steels/atlas_p349.jpg" target="_blank"><img src="21_cast_steels/atlas_p349.jpg" alt="Atlas p.349" loading="lazy"/></a><div class="label">Página 349</div></div>
+<div class="card"><a href="21_cast_steels/atlas_p350.jpg" target="_blank"><img src="21_cast_steels/atlas_p350.jpg" alt="Atlas p.350" loading="lazy"/></a><div class="label">Página 350</div></div>
+<div class="card"><a href="21_cast_steels/atlas_p351.jpg" target="_blank"><img src="21_cast_steels/atlas_p351.jpg" alt="Atlas p.351" loading="lazy"/></a><div class="label">Página 351</div></div>
+<div class="card"><a href="21_cast_steels/atlas_p352.jpg" target="_blank"><img src="21_cast_steels/atlas_p352.jpg" alt="Atlas p.352" loading="lazy"/></a><div class="label">Página 352</div></div>
+<div class="card"><a href="21_cast_steels/atlas_p353.jpg" target="_blank"><img src="21_cast_steels/atlas_p353.jpg" alt="Atlas p.353" loading="lazy"/></a><div class="label">Página 353</div></div>
+</div>
+<h2>Fundiciones Grises</h2>
+<div class="grid">
+<div class="card"><a href="22_gray_irons/atlas_p354.jpg" target="_blank"><img src="22_gray_irons/atlas_p354.jpg" alt="Atlas p.354" loading="lazy"/></a><div class="label">Página 354</div></div>
+<div class="card"><a href="22_gray_irons/atlas_p355.jpg" target="_blank"><img src="22_gray_irons/atlas_p355.jpg" alt="Atlas p.355" loading="lazy"/></a><div class="label">Página 355</div></div>
+<div class="card"><a href="22_gray_irons/atlas_p356.jpg" target="_blank"><img src="22_gray_irons/atlas_p356.jpg" alt="Atlas p.356" loading="lazy"/></a><div class="label">Página 356</div></div>
+<div class="card"><a href="22_gray_irons/atlas_p357.jpg" target="_blank"><img src="22_gray_irons/atlas_p357.jpg" alt="Atlas p.357" loading="lazy"/></a><div class="label">Página 357</div></div>
+<div class="card"><a href="22_gray_irons/atlas_p358.jpg" target="_blank"><img src="22_gray_irons/atlas_p358.jpg" alt="Atlas p.358" loading="lazy"/></a><div class="label">Página 358</div></div>
+</div>
+<h2>Fundiciones Aleadas</h2>
+<div class="grid">
+<div class="card"><a href="23_alloy_cast_irons/atlas_p359.jpg" target="_blank"><img src="23_alloy_cast_irons/atlas_p359.jpg" alt="Atlas p.359" loading="lazy"/></a><div class="label">Página 359</div></div>
+<div class="card"><a href="23_alloy_cast_irons/atlas_p360.jpg" target="_blank"><img src="23_alloy_cast_irons/atlas_p360.jpg" alt="Atlas p.360" loading="lazy"/></a><div class="label">Página 360</div></div>
+<div class="card"><a href="23_alloy_cast_irons/atlas_p361.jpg" target="_blank"><img src="23_alloy_cast_irons/atlas_p361.jpg" alt="Atlas p.361" loading="lazy"/></a><div class="label">Página 361</div></div>
+<div class="card"><a href="23_alloy_cast_irons/atlas_p362.jpg" target="_blank"><img src="23_alloy_cast_irons/atlas_p362.jpg" alt="Atlas p.362" loading="lazy"/></a><div class="label">Página 362</div></div>
+<div class="card"><a href="23_alloy_cast_irons/atlas_p363.jpg" target="_blank"><img src="23_alloy_cast_irons/atlas_p363.jpg" alt="Atlas p.363" loading="lazy"/></a><div class="label">Página 363</div></div>
+<div class="card"><a href="23_alloy_cast_irons/atlas_p364.jpg" target="_blank"><img src="23_alloy_cast_irons/atlas_p364.jpg" alt="Atlas p.364" loading="lazy"/></a><div class="label">Página 364</div></div>
+<div class="card"><a href="23_alloy_cast_irons/atlas_p365.jpg" target="_blank"><img src="23_alloy_cast_irons/atlas_p365.jpg" alt="Atlas p.365" loading="lazy"/></a><div class="label">Página 365</div></div>
+<div class="card"><a href="23_alloy_cast_irons/atlas_p366.jpg" target="_blank"><img src="23_alloy_cast_irons/atlas_p366.jpg" alt="Atlas p.366" loading="lazy"/></a><div class="label">Página 366</div></div>
+<div class="card"><a href="23_alloy_cast_irons/atlas_p367.jpg" target="_blank"><img src="23_alloy_cast_irons/atlas_p367.jpg" alt="Atlas p.367" loading="lazy"/></a><div class="label">Página 367</div></div>
+<div class="card"><a href="23_alloy_cast_irons/atlas_p368.jpg" target="_blank"><img src="23_alloy_cast_irons/atlas_p368.jpg" alt="Atlas p.368" loading="lazy"/></a><div class="label">Página 368</div></div>
+<div class="card"><a href="23_alloy_cast_irons/atlas_p369.jpg" target="_blank"><img src="23_alloy_cast_irons/atlas_p369.jpg" alt="Atlas p.369" loading="lazy"/></a><div class="label">Página 369</div></div>
+<div class="card"><a href="23_alloy_cast_irons/atlas_p370.jpg" target="_blank"><img src="23_alloy_cast_irons/atlas_p370.jpg" alt="Atlas p.370" loading="lazy"/></a><div class="label">Página 370</div></div>
+<div class="card"><a href="23_alloy_cast_irons/atlas_p371.jpg" target="_blank"><img src="23_alloy_cast_irons/atlas_p371.jpg" alt="Atlas p.371" loading="lazy"/></a><div class="label">Página 371</div></div>
+<div class="card"><a href="23_alloy_cast_irons/atlas_p372.jpg" target="_blank"><img src="23_alloy_cast_irons/atlas_p372.jpg" alt="Atlas p.372" loading="lazy"/></a><div class="label">Página 372</div></div>
+<div class="card"><a href="23_alloy_cast_irons/atlas_p373.jpg" target="_blank"><img src="23_alloy_cast_irons/atlas_p373.jpg" alt="Atlas p.373" loading="lazy"/></a><div class="label">Página 373</div></div>
+<div class="card"><a href="23_alloy_cast_irons/atlas_p374.jpg" target="_blank"><img src="23_alloy_cast_irons/atlas_p374.jpg" alt="Atlas p.374" loading="lazy"/></a><div class="label">Página 374</div></div>
+</div>
+<h2>Fundiciones Maleables Perlíticas</h2>
+<div class="grid">
+<div class="card"><a href="24_pearlitic_malleable/atlas_p375.jpg" target="_blank"><img src="24_pearlitic_malleable/atlas_p375.jpg" alt="Atlas p.375" loading="lazy"/></a><div class="label">Página 375</div></div>
+<div class="card"><a href="24_pearlitic_malleable/atlas_p376.jpg" target="_blank"><img src="24_pearlitic_malleable/atlas_p376.jpg" alt="Atlas p.376" loading="lazy"/></a><div class="label">Página 376</div></div>
+<div class="card"><a href="24_pearlitic_malleable/atlas_p377.jpg" target="_blank"><img src="24_pearlitic_malleable/atlas_p377.jpg" alt="Atlas p.377" loading="lazy"/></a><div class="label">Página 377</div></div>
+</div>
+<h2>Apéndice: Aplicación de Diagramas TTT</h2>
+<div class="grid">
+<div class="card"><a href="25_appendix/atlas_p378.jpg" target="_blank"><img src="25_appendix/atlas_p378.jpg" alt="Atlas p.378" loading="lazy"/></a><div class="label">Página 378</div></div>
+<div class="card"><a href="25_appendix/atlas_p379.jpg" target="_blank"><img src="25_appendix/atlas_p379.jpg" alt="Atlas p.379" loading="lazy"/></a><div class="label">Página 379</div></div>
+<div class="card"><a href="25_appendix/atlas_p380.jpg" target="_blank"><img src="25_appendix/atlas_p380.jpg" alt="Atlas p.380" loading="lazy"/></a><div class="label">Página 380</div></div>
+<div class="card"><a href="25_appendix/atlas_p381.jpg" target="_blank"><img src="25_appendix/atlas_p381.jpg" alt="Atlas p.381" loading="lazy"/></a><div class="label">Página 381</div></div>
+<div class="card"><a href="25_appendix/atlas_p382.jpg" target="_blank"><img src="25_appendix/atlas_p382.jpg" alt="Atlas p.382" loading="lazy"/></a><div class="label">Página 382</div></div>
+<div class="card"><a href="25_appendix/atlas_p383.jpg" target="_blank"><img src="25_appendix/atlas_p383.jpg" alt="Atlas p.383" loading="lazy"/></a><div class="label">Página 383</div></div>
+<div class="card"><a href="25_appendix/atlas_p384.jpg" target="_blank"><img src="25_appendix/atlas_p384.jpg" alt="Atlas p.384" loading="lazy"/></a><div class="label">Página 384</div></div>
+<div class="card"><a href="25_appendix/atlas_p385.jpg" target="_blank"><img src="25_appendix/atlas_p385.jpg" alt="Atlas p.385" loading="lazy"/></a><div class="label">Página 385</div></div>
+<div class="card"><a href="25_appendix/atlas_p386.jpg" target="_blank"><img src="25_appendix/atlas_p386.jpg" alt="Atlas p.386" loading="lazy"/></a><div class="label">Página 386</div></div>
+<div class="card"><a href="25_appendix/atlas_p387.jpg" target="_blank"><img src="25_appendix/atlas_p387.jpg" alt="Atlas p.387" loading="lazy"/></a><div class="label">Página 387</div></div>
+<div class="card"><a href="25_appendix/atlas_p388.jpg" target="_blank"><img src="25_appendix/atlas_p388.jpg" alt="Atlas p.388" loading="lazy"/></a><div class="label">Página 388</div></div>
+<div class="card"><a href="25_appendix/atlas_p389.jpg" target="_blank"><img src="25_appendix/atlas_p389.jpg" alt="Atlas p.389" loading="lazy"/></a><div class="label">Página 389</div></div>
+<div class="card"><a href="25_appendix/atlas_p390.jpg" target="_blank"><img src="25_appendix/atlas_p390.jpg" alt="Atlas p.390" loading="lazy"/></a><div class="label">Página 390</div></div>
+<div class="card"><a href="25_appendix/atlas_p391.jpg" target="_blank"><img src="25_appendix/atlas_p391.jpg" alt="Atlas p.391" loading="lazy"/></a><div class="label">Página 391</div></div>
+<div class="card"><a href="25_appendix/atlas_p392.jpg" target="_blank"><img src="25_appendix/atlas_p392.jpg" alt="Atlas p.392" loading="lazy"/></a><div class="label">Página 392</div></div>
+<div class="card"><a href="25_appendix/atlas_p393.jpg" target="_blank"><img src="25_appendix/atlas_p393.jpg" alt="Atlas p.393" loading="lazy"/></a><div class="label">Página 393</div></div>
+<div class="card"><a href="25_appendix/atlas_p394.jpg" target="_blank"><img src="25_appendix/atlas_p394.jpg" alt="Atlas p.394" loading="lazy"/></a><div class="label">Página 394</div></div>
+<div class="card"><a href="25_appendix/atlas_p395.jpg" target="_blank"><img src="25_appendix/atlas_p395.jpg" alt="Atlas p.395" loading="lazy"/></a><div class="label">Página 395</div></div>
+<div class="card"><a href="25_appendix/atlas_p396.jpg" target="_blank"><img src="25_appendix/atlas_p396.jpg" alt="Atlas p.396" loading="lazy"/></a><div class="label">Página 396</div></div>
+<div class="card"><a href="25_appendix/atlas_p397.jpg" target="_blank"><img src="25_appendix/atlas_p397.jpg" alt="Atlas p.397" loading="lazy"/></a><div class="label">Página 397</div></div>
+<div class="card"><a href="25_appendix/atlas_p398.jpg" target="_blank"><img src="25_appendix/atlas_p398.jpg" alt="Atlas p.398" loading="lazy"/></a><div class="label">Página 398</div></div>
+<div class="card"><a href="25_appendix/atlas_p399.jpg" target="_blank"><img src="25_appendix/atlas_p399.jpg" alt="Atlas p.399" loading="lazy"/></a><div class="label">Página 399</div></div>
+<div class="card"><a href="25_appendix/atlas_p400.jpg" target="_blank"><img src="25_appendix/atlas_p400.jpg" alt="Atlas p.400" loading="lazy"/></a><div class="label">Página 400</div></div>
+<div class="card"><a href="25_appendix/atlas_p401.jpg" target="_blank"><img src="25_appendix/atlas_p401.jpg" alt="Atlas p.401" loading="lazy"/></a><div class="label">Página 401</div></div>
+<div class="card"><a href="25_appendix/atlas_p402.jpg" target="_blank"><img src="25_appendix/atlas_p402.jpg" alt="Atlas p.402" loading="lazy"/></a><div class="label">Página 402</div></div>
+<div class="card"><a href="25_appendix/atlas_p403.jpg" target="_blank"><img src="25_appendix/atlas_p403.jpg" alt="Atlas p.403" loading="lazy"/></a><div class="label">Página 403</div></div>
+<div class="card"><a href="25_appendix/atlas_p404.jpg" target="_blank"><img src="25_appendix/atlas_p404.jpg" alt="Atlas p.404" loading="lazy"/></a><div class="label">Página 404</div></div>
+<div class="card"><a href="25_appendix/atlas_p405.jpg" target="_blank"><img src="25_appendix/atlas_p405.jpg" alt="Atlas p.405" loading="lazy"/></a><div class="label">Página 405</div></div>
+<div class="card"><a href="25_appendix/atlas_p406.jpg" target="_blank"><img src="25_appendix/atlas_p406.jpg" alt="Atlas p.406" loading="lazy"/></a><div class="label">Página 406</div></div>
+<div class="card"><a href="25_appendix/atlas_p407.jpg" target="_blank"><img src="25_appendix/atlas_p407.jpg" alt="Atlas p.407" loading="lazy"/></a><div class="label">Página 407</div></div>
+<div class="card"><a href="25_appendix/atlas_p408.jpg" target="_blank"><img src="25_appendix/atlas_p408.jpg" alt="Atlas p.408" loading="lazy"/></a><div class="label">Página 408</div></div>
+<div class="card"><a href="25_appendix/atlas_p409.jpg" target="_blank"><img src="25_appendix/atlas_p409.jpg" alt="Atlas p.409" loading="lazy"/></a><div class="label">Página 409</div></div>
+<div class="card"><a href="25_appendix/atlas_p410.jpg" target="_blank"><img src="25_appendix/atlas_p410.jpg" alt="Atlas p.410" loading="lazy"/></a><div class="label">Página 410</div></div>
+<div class="card"><a href="25_appendix/atlas_p411.jpg" target="_blank"><img src="25_appendix/atlas_p411.jpg" alt="Atlas p.411" loading="lazy"/></a><div class="label">Página 411</div></div>
+<div class="card"><a href="25_appendix/atlas_p412.jpg" target="_blank"><img src="25_appendix/atlas_p412.jpg" alt="Atlas p.412" loading="lazy"/></a><div class="label">Página 412</div></div>
+<div class="card"><a href="25_appendix/atlas_p413.jpg" target="_blank"><img src="25_appendix/atlas_p413.jpg" alt="Atlas p.413" loading="lazy"/></a><div class="label">Página 413</div></div>
+<div class="card"><a href="25_appendix/atlas_p414.jpg" target="_blank"><img src="25_appendix/atlas_p414.jpg" alt="Atlas p.414" loading="lazy"/></a><div class="label">Página 414</div></div>
+<div class="card"><a href="25_appendix/atlas_p415.jpg" target="_blank"><img src="25_appendix/atlas_p415.jpg" alt="Atlas p.415" loading="lazy"/></a><div class="label">Página 415</div></div>
+<div class="card"><a href="25_appendix/atlas_p416.jpg" target="_blank"><img src="25_appendix/atlas_p416.jpg" alt="Atlas p.416" loading="lazy"/></a><div class="label">Página 416</div></div>
+<div class="card"><a href="25_appendix/atlas_p417.jpg" target="_blank"><img src="25_appendix/atlas_p417.jpg" alt="Atlas p.417" loading="lazy"/></a><div class="label">Página 417</div></div>
+<div class="card"><a href="25_appendix/atlas_p418.jpg" target="_blank"><img src="25_appendix/atlas_p418.jpg" alt="Atlas p.418" loading="lazy"/></a><div class="label">Página 418</div></div>
+<div class="card"><a href="25_appendix/atlas_p419.jpg" target="_blank"><img src="25_appendix/atlas_p419.jpg" alt="Atlas p.419" loading="lazy"/></a><div class="label">Página 419</div></div>
+<div class="card"><a href="25_appendix/atlas_p420.jpg" target="_blank"><img src="25_appendix/atlas_p420.jpg" alt="Atlas p.420" loading="lazy"/></a><div class="label">Página 420</div></div>
+<div class="card"><a href="25_appendix/atlas_p421.jpg" target="_blank"><img src="25_appendix/atlas_p421.jpg" alt="Atlas p.421" loading="lazy"/></a><div class="label">Página 421</div></div>
+<div class="card"><a href="25_appendix/atlas_p422.jpg" target="_blank"><img src="25_appendix/atlas_p422.jpg" alt="Atlas p.422" loading="lazy"/></a><div class="label">Página 422</div></div>
+<div class="card"><a href="25_appendix/atlas_p423.jpg" target="_blank"><img src="25_appendix/atlas_p423.jpg" alt="Atlas p.423" loading="lazy"/></a><div class="label">Página 423</div></div>
+<div class="card"><a href="25_appendix/atlas_p424.jpg" target="_blank"><img src="25_appendix/atlas_p424.jpg" alt="Atlas p.424" loading="lazy"/></a><div class="label">Página 424</div></div>
+<div class="card"><a href="25_appendix/atlas_p425.jpg" target="_blank"><img src="25_appendix/atlas_p425.jpg" alt="Atlas p.425" loading="lazy"/></a><div class="label">Página 425</div></div>
+<div class="card"><a href="25_appendix/atlas_p426.jpg" target="_blank"><img src="25_appendix/atlas_p426.jpg" alt="Atlas p.426" loading="lazy"/></a><div class="label">Página 426</div></div>
+<div class="card"><a href="25_appendix/atlas_p427.jpg" target="_blank"><img src="25_appendix/atlas_p427.jpg" alt="Atlas p.427" loading="lazy"/></a><div class="label">Página 427</div></div>
+<div class="card"><a href="25_appendix/atlas_p428.jpg" target="_blank"><img src="25_appendix/atlas_p428.jpg" alt="Atlas p.428" loading="lazy"/></a><div class="label">Página 428</div></div>
+<div class="card"><a href="25_appendix/atlas_p429.jpg" target="_blank"><img src="25_appendix/atlas_p429.jpg" alt="Atlas p.429" loading="lazy"/></a><div class="label">Página 429</div></div>
+<div class="card"><a href="25_appendix/atlas_p430.jpg" target="_blank"><img src="25_appendix/atlas_p430.jpg" alt="Atlas p.430" loading="lazy"/></a><div class="label">Página 430</div></div>
+<div class="card"><a href="25_appendix/atlas_p431.jpg" target="_blank"><img src="25_appendix/atlas_p431.jpg" alt="Atlas p.431" loading="lazy"/></a><div class="label">Página 431</div></div>
+<div class="card"><a href="25_appendix/atlas_p432.jpg" target="_blank"><img src="25_appendix/atlas_p432.jpg" alt="Atlas p.432" loading="lazy"/></a><div class="label">Página 432</div></div>
+</div>
+</body></html>
